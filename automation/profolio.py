@@ -25,22 +25,22 @@ LOGFILE = "update_log.txt"
 WEEKS_DIR = os.path.abspath(os.path.join(os.getcwd(), "..", "weeks"))
 
 README_TEMPLATE = """ 
-# Woche {week} - {title}, Projekt: {project}
+## Woche {week} - {title}, Projekt: {project}
 
-## Was ich gelernt habe
+### Was ich gelernt habe
 
 - Punkt 1
 - Punkt 2
 - ...
 - Bsp. Global habe ich wie in .... zu sehen..
 
-## Beispielcode
+### Beispielcode
 
 ```cpp
 {example_code}
 ```
 
-## Was ich debugged habe
+### Was ich debugged habe
 
 - Punkt 1
 - Punkt 2
@@ -50,12 +50,12 @@ README_TEMPLATE = """
 {example_code}
 ```
 
-## Projekt
+### Projekt
 
 - (Sinnvoll oder nicht?)
 {project}
 
-## Screenshotliste
+### Screenshotliste
 
 {screenshots_markdown}
 """
