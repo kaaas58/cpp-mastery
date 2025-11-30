@@ -112,7 +112,7 @@ Best Practices: Fokus auf modernen C++-Stil (C++17/20)
 
 🚀 Quick Start (um protfolio.py zu nutzen / => Struktur, Repo clonen => Dependencies installieren => profolio.py mit Konsole anwenden wie folgt)
 bash# Repository klonen
-git clone https://github.com/[dein-username]/cpp-mastery.git
+git clone https://github.com/kaaas58/cpp-mastery.git
 cd cpp-mastery
 
 # Python-Dependencies installieren (optional für Thumbnails)
