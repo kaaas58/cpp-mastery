@@ -1,5 +1,5 @@
-
-# Woche 06 - Structuren, Projekt: list
+ 
+# Woche 01 - start, Projekt: no_name
 
 ## Was ich gelernt habe
 
@@ -27,7 +27,7 @@
 ## Projekt
 
 - (Sinnvoll oder nicht?)
-list
+no_name
 
 ## Screenshotliste
 
