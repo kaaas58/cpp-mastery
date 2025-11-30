@@ -126,7 +126,7 @@ python portfolio.py 07 "Templates" "Generic Calculator"
 ## Screenshots hinzufügen
 cp mein_screenshot.png ../weeks/week_07_templates/screenshots/
 
-## READMEs aktualisieren (inl Sreenshots laden und Thumbs erzeugen, so wie einbinden)
+### READMEs aktualisieren (inl Sreenshots laden und Thumbs erzeugen, so wie einbinden)
 python portfolio.py
 
 
