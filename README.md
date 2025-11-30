@@ -23,6 +23,7 @@ Recherschen: Dokumentationen/Googel/Sprachmodelle/Plattformen
 
 📂 Repository-Struktur
 
+```text
 cpp-mastery/
 ├── weeks/                     # Wochenmodule
 │   ├── week_01_klassen/
@@ -42,7 +43,7 @@ cpp-mastery/
 ├── STYLEGUIDE.md             # Code-Konventionen
 │
 └── .gitignore
-
+```
 
 📋 Wochenstruktur
 
@@ -115,17 +116,17 @@ bash# Repository klonen
 git clone https://github.com/kaaas58/cpp-mastery.git
 cd cpp-mastery
 
-# Python-Dependencies installieren (optional für Thumbnails)
+### Python-Dependencies installieren (optional für Thumbnails)
 pip install Pillow
 
-# Neue Woche erstellen
+### Neue Woche erstellen
 cd automation
 python portfolio.py 07 "Templates" "Generic Calculator"
 
-# Screenshots hinzufügen
+### Screenshots hinzufügen
 cp mein_screenshot.png ../weeks/week_07_templates/screenshots/
 
-# READMEs aktualisieren (inl Sreenshots laden und Thumbs erzeugen, so wie einbinden)
+### READMEs aktualisieren (inl Sreenshots laden und Thumbs erzeugen, so wie einbinden)
 python portfolio.py
 
 
