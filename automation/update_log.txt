@@ -1,1 +1,68 @@
 2025-11-30 15:37:36.578001 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_01_start
+2025-11-30 23:43:21.728996 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_02_klassen
+2025-11-30 23:52:50.385410 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_03_structuren
+2025-11-30 23:54:36.582254 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_01_klassenmenge
+2025-12-01 00:42:36.362796 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_Hasen_rasen
+2025-12-01 00:42:52.393285 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_02_hasen
+2025-12-01 00:43:12.920478 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_03_hass
+2025-12-01 00:43:27.231067 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_03_hase
+2025-12-01 00:43:55.568800 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_03_hase
+2025-12-01 00:44:05.429635 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_08_hase
+2025-12-01 00:45:49.819276 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_09_kaka
+2025-12-01 00:46:01.511886 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_10_kaka-laka
+2025-12-01 00:46:31.831127 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_kaka.laka.maka/daka_projekkt
+2025-12-01 00:47:23.626160 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_kaka/paka_oproj
+2025-12-01 00:47:33.008150 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_kaka/paka_oproj
+2025-12-01 00:47:46.796000 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_kaka/paka_oproj
+2025-12-01 00:47:57.691917 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_kaka.paka_oproj
+2025-12-01 00:48:04.878456 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_kaka.paka_oproj
+2025-12-01 00:48:13.160602 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_kaka_paka
+2025-12-01 00:48:43.524105 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_objekte_klassen
+2025-12-01 00:48:51.460203 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_02_objekte
+2025-12-01 00:49:00.745889 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_03_fuck
+2025-12-01 00:49:13.683973 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_04_fuck-dack
+2025-12-01 00:54:20.218540 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_02_klassen
+2025-12-01 00:54:28.032580 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_klassen_massen
+2025-12-01 00:54:55.100558 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_klassen_massen
+2025-12-01 00:55:08.903212 | [INIT] Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_klassen_krassen
+2025-12-01 01:15:30.002763 | [UPDATE] README aktualisiert in week_01_klassenmenge
+2025-12-01 01:15:30.013958 | [UPDATE] README aktualisiert in week_02_klassen
+2025-12-01 01:15:30.014605 | [UPDATE] README aktualisiert in week_klassen_krassen
+2025-12-01 01:15:30.026728 | [UPDATE] README aktualisiert in week_klassen_massen
+2025-12-01 01:15:30.027145 | [DONE] Update abgeschlossen: 4
+2025-12-01 01:15:41.014276 | [INIT] Ordner erstellt: week_03_koko
+2025-12-01 01:15:46.578879 | [INIT] Ordner erstellt: week_04_koko-moko
+2025-12-01 01:15:53.425099 | [INIT] Ordner erstellt: week_05_koko-moko-schoko
+2025-12-01 01:18:43.600166 | [UPDATE] README aktualisiert in week_01_klassenmenge
+2025-12-01 01:18:43.612177 | [UPDATE] README aktualisiert in week_02_klassen
+2025-12-01 01:18:44.367608 | [UPDATE] README aktualisiert in week_03_koko
+2025-12-01 01:18:45.126690 | [UPDATE] README aktualisiert in week_04_koko-moko
+2025-12-01 01:18:45.139982 | [UPDATE] README aktualisiert in week_05_koko-moko-schoko
+2025-12-01 01:18:45.152758 | [UPDATE] README aktualisiert in week_klassen_krassen
+2025-12-01 01:18:45.164366 | [UPDATE] README aktualisiert in week_klassen_massen
+2025-12-01 01:18:45.164717 | [DONE] Update abgeschlossen: 7
+2025-12-01 01:25:16.699802 | [INIT] Ordner erstellt: week_01_klassen
+2025-12-01 01:27:31.181433 | [UPDATE] README aktualisiert in week_01_klassen
+2025-12-01 01:27:31.181880 | [DONE] Update abgeschlossen: 1
+2025-12-01 01:28:42.704970 | [INIT] Ordner erstellt: week_02_koko
+2025-12-01 01:29:37.031379 | [INIT] Ordner erstellt: week_03_koko
+2025-12-01 01:29:42.819316 | [INIT] Ordner erstellt: week_04_koko-sds
+2025-12-01 01:29:47.373096 | [UPDATE] README aktualisiert in week_01_klassen
+2025-12-01 01:29:48.265510 | [UPDATE] README aktualisiert in week_02_koko
+2025-12-01 01:29:48.278975 | [UPDATE] README aktualisiert in week_03_koko
+2025-12-01 01:29:48.289360 | [UPDATE] README aktualisiert in week_04_koko-sds
+2025-12-01 01:29:48.289748 | [DONE] Update abgeschlossen: 4
+2025-12-01 01:32:26.790292 | [INIT] Ordner erstellt: week_01_hallo
+2025-12-01 01:32:33.845385 | [INIT] Ordner erstellt: week_02_wallo
+2025-12-01 01:32:37.590424 | [INIT] Ordner erstellt: week_03_wallo-knallo
+2025-12-01 01:32:41.784295 | [INIT] Ordner erstellt: week_04_wallo-knallo-mallo
+2025-12-01 01:33:11.882657 | [UPDATE] README aktualisiert in week_01_hallo
+2025-12-01 01:33:11.894636 | [UPDATE] README aktualisiert in week_02_wallo
+2025-12-01 01:33:12.796137 | [UPDATE] README aktualisiert in week_03_wallo-knallo
+2025-12-01 01:33:12.808205 | [UPDATE] README aktualisiert in week_04_wallo-knallo-mallo
+2025-12-01 01:33:12.808566 | [DONE] Update abgeschlossen: 4
+2025-12-01 01:33:53.075549 | [UPDATE] README aktualisiert in week_01_hallo
+2025-12-01 01:33:53.087323 | [UPDATE] README aktualisiert in week_02_wallo
+2025-12-01 01:33:57.120437 | [UPDATE] README aktualisiert in week_03_wallo-knallo
+2025-12-01 01:33:57.131932 | [UPDATE] README aktualisiert in week_04_wallo-knallo-mallo
+2025-12-01 01:33:57.132369 | [DONE] Update abgeschlossen: 4
