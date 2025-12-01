@@ -115,3 +115,7 @@
 2025-12-01 16:59:17.975554 | [INIT] Ordner erstellt: week_01_wer-wo
 2025-12-01 17:07:14.061709 | [INIT] Ordner erstellt: week_03_kakao
 2025-12-01 17:08:02.104464 | [INIT] Ordner erstellt: week_03_poko-domaene
+2025-12-01 17:11:02.141832 | [SKIP] screenshot-Ordner leer in C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_03_kakao
+2025-12-01 17:11:02.142564 | [UPDATE] README (leerer screenshots-Ordner) aktualisiert in week_03_kakao
+2025-12-01 17:11:03.188634 | [UPDATE] README aktualisiert in week_03_poko-domaene
+2025-12-01 17:11:03.189025 | [DONE] Update abgeschlossen: 2
