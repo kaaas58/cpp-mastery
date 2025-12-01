@@ -66,3 +66,14 @@
 2025-12-01 01:33:57.120437 | [UPDATE] README aktualisiert in week_03_wallo-knallo
 2025-12-01 01:33:57.131932 | [UPDATE] README aktualisiert in week_04_wallo-knallo-mallo
 2025-12-01 01:33:57.132369 | [DONE] Update abgeschlossen: 4
+2025-12-01 01:50:20.072536 | [INIT] Ordner erstellt: week_01_hallo
+2025-12-01 01:50:30.924252 | [INIT] Ordner erstellt: week_02_bye
+2025-12-01 01:50:36.336498 | [INIT] Ordner erstellt: week_03_bye-bye
+2025-12-01 01:51:36.686697 | [CREATE] weeks/ Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks
+2025-12-01 01:51:36.688009 | [INIT] Ordner erstellt: week_01_hi-hallo
+2025-12-01 01:51:43.584052 | [INIT] Ordner erstellt: week_02_bye
+2025-12-01 01:51:54.481537 | [INIT] Ordner erstellt: week_03_bye-bye
+2025-12-01 01:53:09.226492 | [UPDATE] README aktualisiert in week_01_hi-hallo
+2025-12-01 01:53:11.598738 | [UPDATE] README aktualisiert in week_02_bye
+2025-12-01 01:53:11.611354 | [UPDATE] README aktualisiert in week_03_bye-bye
+2025-12-01 01:53:11.611787 | [DONE] Update abgeschlossen: 3

@@ -7,7 +7,7 @@
 #      py portfolio.py
 #
 #    → Durchsucht alle Wochenordner und:
-#        • generiert fehlende Thumbnails (300px)
+#        • generiert fehlende Thumbnails (180px)
 #        • aktualisiert Screenshot-Listen in allen READMEs
 #        • sortiert chronologisch (neueste zuerst)
 #
@@ -19,7 +19,7 @@
 #        • week_XX_smart-pointers/ (Umlaute → ae/oe/ue)
 #        • README.md mit Template
 #        • screenshots/ + thumbnails/ Ordner
-#        • Projekt-Platzhalter: <Projekt> (später manuell ergänzen)
+#        • Projekt-Platzhalter: Projekt (später manuell ergänzen)
 #
 # 3) MANUELL-INIT (Woche selbst angeben)
 #      py portfolio.py 05 Smart Pointers
@@ -28,7 +28,7 @@
 #    → Legt Woche mit gewünschter Nummer an
 #        • week_05_smart-pointers/
 #        • Titel aus allen Wörtern kombiniert
-#        • Projekt-Platzhalter: <Projekt>
+#        • Projekt-Platzhalter: Projekt
 #
 # =====================================================================
 
@@ -46,8 +46,8 @@ except ImportError:
     print("⚠️  PIL nicht installiert. Thumbnails werden übersprungen.")
     print("   Installation: pip install Pillow")
 
-THUMB_WIDTH = 300
-PER_PAGE = 50
+THUMB_WIDTH = 180  
+PER_PAGE = 25      
 LOGFILE = "update_log.txt"
 
 # ORDNER: weeks/ liegt eine Ebene über automation/
@@ -57,7 +57,7 @@ README_TEMPLATE = """
 # Woche {week} - {title}, Projekt: {project}
 
 ![C++](https://img.shields.io/badge/C++-17%2F20-00599C?logo=cplusplus)
-![Progress](https://img.shields.io/badge/Week-{week}-lightblue)
+![Progress](https://img.shields.io/badge/Week-{week}-lightgreen)
 
 ## Was ich gelernt habe
 
@@ -79,7 +79,7 @@ README_TEMPLATE = """
 - ...
 
 ```cpp
-{example_code}
+{debug_code}
 ```
 
 ## Projekt {project}
@@ -94,13 +94,12 @@ Lorem .......
 -
 
 ```cpp
-{example_code}
+{project_code}
 ```
 
 ## Screenshotliste
 
 {screenshots_markdown}
-
 """
 
 # -------------------------------------------------------------
@@ -179,7 +178,7 @@ def update_screenshots(folder_path):
 
         # Markdown Eintrag
         if PIL_AVAILABLE and thumb_path and os.path.exists(thumb_path):
-            md_line = f"- <img src=\"thumbnails/{fname}\" width=\"300\"> → [{fname}](screenshots/{fname})"
+            md_line = f"- <img src=\"thumbnails/{fname}\" width=\"{THUMB_WIDTH}\"> → [{fname}](screenshots/{fname})"
         else:
             md_line = f"- [{fname}](screenshots/{fname})"
 
@@ -194,25 +193,31 @@ def update_screenshots(folder_path):
         md_pages.append(current_page)
 
     # ---------------------------------------------------------
-    # 3. Markdown erzeugen (mit Seiten)
+    # 3. Markdown erzeugen (mit dynamischer Seiten-Navigation)
     # ---------------------------------------------------------
     md_final = []
 
-    if len(md_pages) > 1:
-        # Seiten-Navigation
-        page_links = " | ".join(
-            [f"[Seite {i+1}](#seite-{i+1})" for i in range(len(md_pages))]
-        )
-        md_final.append(page_links)
-        md_final.append("")
-
-    # Inhalte der Seiten
-    for i, page in enumerate(md_pages):
-        if len(md_pages) > 1:
-            md_final.append(f"### Seite {i+1}")
+    if len(md_pages) == 1:
+        # Nur 1 Seite → keine Navigation nötig
+        md_final.extend(md_pages[0])
+    else:
+        # Mehrere Seiten → jede Seite mit eigener Navigation
+        for current, page in enumerate(md_pages):
+            # Navigation: Links zu allen anderen Seiten
+            nav_links = []
+            for i in range(len(md_pages)):
+                if i != current:
+                    nav_links.append(f"[Seite {i+1}](#seite-{i+1})")
+            
+            # Seiten-Header mit Navigation
+            md_final.append(f"### Seite {current+1}")
             md_final.append("")
-        md_final.extend(page)
-        md_final.append("")
+            md_final.append("**Gehe zu:** " + " | ".join(nav_links))
+            md_final.append("")
+            
+            # Seiten-Inhalt
+            md_final.extend(page)
+            md_final.append("")
 
     return "\n".join(md_final)
 
@@ -317,6 +322,8 @@ def init_week(week, title, project):
             title=title,
             project=project,
             example_code="// Beispielcode hier einfügen",
+            debug_code="// Debug-Beispiel hier einfügen",
+            project_code="// Projekt-Code hier einfügen",
             screenshots_markdown="- Noch keine Screenshots"
         ))
 
@@ -340,7 +347,7 @@ if __name__ == "__main__":
     # Prüfe ob erstes Argument eine Wochennummer ist (2 Ziffern)
     first_is_week = len(args[0]) == 2 and args[0].isdigit()
     
-    # Projekt ist IMMER <Projekt> beim Anlegen (wird später manuell im README ergänzt)
+    # Projekt ist IMMER "Projekt" beim Anlegen (wird später manuell im README ergänzt)
     project = "Projekt"
     
     # INIT: Titel aus allen Argumenten zusammensetzen
