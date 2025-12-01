@@ -179,7 +179,8 @@ def update_screenshots(folder_path):
 
         # Markdown Eintrag
         if PIL_AVAILABLE and thumb_path and os.path.exists(thumb_path):
-            md_line = f"- <img src=\"thumbnails/{fname}\" width=\"{THUMB_WIDTH}\"> → [{fname}](screenshots/{fname})"
+            # md_line = f"- <img src=\"thumbnails/{fname}\" width=\"{THUMB_WIDTH}\"> → [{fname}](screenshots/{fname})"
+            md_line = f"- [<img src=\"thumbnails/{fname}\" width=\"{THUMB_WIDTH}\">](screenshots/{fname})"
         else:
             md_line = f"- [{fname}](screenshots/{fname})"
 
