@@ -1,8 +1,8 @@
 
-# Woche 09 - daddel, Projekt: Projekt
+# Woche 10 - hollla-waldfee, Projekt: Projekt
 
 ![C++](https://img.shields.io/badge/C++-17%2F20-00599C?logo=cplusplus)
-![Progress](https://img.shields.io/badge/Week-09-lightgreen)
+![Progress](https://img.shields.io/badge/Week-10-lightgreen)
 
 ## Was ich gelernt habe
 
