@@ -176,11 +176,9 @@ def update_screenshots(folder_path):
         if PIL_AVAILABLE and thumb_path and not os.path.exists(thumb_path):
             create_thumbnail(input_path, thumb_path)
 
-        # Markdown Eintrag
+        # Markdown Eintrag - FIXED: Verwende <a> statt Markdown-Link-Syntax
         if PIL_AVAILABLE and thumb_path and os.path.exists(thumb_path):
-            # md_line = f"- <img src=\"thumbnails/{fname}\" width=\"{THUMB_WIDTH}\"> → [{fname}](screenshots/{fname})"
-            md_line = f"- [<img src=\"thumbnails/{fname}\" width=\"{THUMB_WIDTH}\">](screenshots/{fname})"
-
+            md_line = f"- <a href=\"screenshots/{fname}\"><img src=\"thumbnails/{fname}\" width=\"{THUMB_WIDTH}\"></a>"
         else:
             md_line = f"- [{fname}](screenshots/{fname})"
 
@@ -403,3 +401,4 @@ if __name__ == "__main__":
     
     title_norm = normalize_title(title)
     init_week(week, title_norm, project)
+    

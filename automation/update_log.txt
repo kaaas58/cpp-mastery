@@ -119,3 +119,10 @@
 2025-12-01 17:11:02.142564 | [UPDATE] README (leerer screenshots-Ordner) aktualisiert in week_03_kakao
 2025-12-01 17:11:03.188634 | [UPDATE] README aktualisiert in week_03_poko-domaene
 2025-12-01 17:11:03.189025 | [DONE] Update abgeschlossen: 2
+2025-12-01 19:29:39.711530 | [CREATE] weeks/ Ordner erstellt: C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks
+2025-12-01 19:29:39.713057 | [INIT] Ordner erstellt: week_01_ndl
+2025-12-01 19:29:50.239954 | [INIT] Ordner erstellt: week_02_bkk
+2025-12-01 19:31:20.927957 | [SKIP] screenshot-Ordner leer in C:\Users\lutr5\DEV\DEV_cpp-mastery\weeks\week_01_ndl
+2025-12-01 19:31:20.945120 | [UPDATE] README (leerer screenshots-Ordner) aktualisiert in week_01_ndl
+2025-12-01 19:31:21.430572 | [UPDATE] README aktualisiert in week_02_bkk
+2025-12-01 19:31:21.430938 | [DONE] Update abgeschlossen: 2

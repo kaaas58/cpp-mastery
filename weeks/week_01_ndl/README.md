@@ -1,8 +1,8 @@
 
-# Woche 03 - kakao, Projekt: Projekt
+# Woche 01 - ndl, Projekt: Projekt
 
 ![C++](https://img.shields.io/badge/C++-17%2F20-00599C?logo=cplusplus)
-![Progress](https://img.shields.io/badge/Week-03-lightgreen)
+![Progress](https://img.shields.io/badge/Week-01-lightgreen)
 
 ## Was ich gelernt habe
 
