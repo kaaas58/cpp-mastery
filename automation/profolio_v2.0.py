@@ -46,7 +46,7 @@ except ImportError:
     print("⚠️  PIL nicht installiert. Thumbnails werden übersprungen.")
     print("   Installation: pip install Pillow")
 
-THUMB_WIDTH = 150  
+THUMB_WIDTH = 180  
 PER_PAGE = 25      
 LOGFILE = "update_log.txt"
 
@@ -100,7 +100,6 @@ Lorem .......
 ## Screenshotliste
 
 {screenshots_markdown}
-
 """
 
 # -------------------------------------------------------------
@@ -179,8 +178,7 @@ def update_screenshots(folder_path):
 
         # Markdown Eintrag
         if PIL_AVAILABLE and thumb_path and os.path.exists(thumb_path):
-            # Thumbnail und Dateiname beide als Link zum Original
-            md_line = f"- [![Thumbnail](thumbnails/{fname})](screenshots/{fname}) → [{fname}](screenshots/{fname})"
+            md_line = f"- <img src=\"thumbnails/{fname}\" width=\"{THUMB_WIDTH}\"> → [{fname}](screenshots/{fname})"
         else:
             md_line = f"- [{fname}](screenshots/{fname})"
 
