@@ -46,7 +46,7 @@ except ImportError:
     print("⚠️  PIL nicht installiert. Thumbnails werden übersprungen.")
     print("   Installation: pip install Pillow")
 
-THUMB_WIDTH = 195  
+THUMB_WIDTH = 197  
 PER_PAGE = 25      
 LOGFILE = "update_log.txt"
 
