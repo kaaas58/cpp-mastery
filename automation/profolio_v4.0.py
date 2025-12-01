@@ -178,7 +178,7 @@ def update_screenshots(folder_path):
 
         # Markdown Eintrag - FIXED: Verwende <a> statt Markdown-Link-Syntax
         if PIL_AVAILABLE and thumb_path and os.path.exists(thumb_path):
-            md_line = f"- <a href=\"screenshots/{fname}\"><img src=\"thumbnails/{fname}\" width=\"{THUMB_WIDTH}\"></a>"
+            md_line = f"<a href=\"screenshots/{fname}\"><img src=\"thumbnails/{fname}\" width=\"{THUMB_WIDTH}\"></a>"
         else:
             md_line = f"- [{fname}](screenshots/{fname})"
 

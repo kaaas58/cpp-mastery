@@ -126,3 +126,5 @@
 2025-12-01 19:31:20.945120 | [UPDATE] README (leerer screenshots-Ordner) aktualisiert in week_01_ndl
 2025-12-01 19:31:21.430572 | [UPDATE] README aktualisiert in week_02_bkk
 2025-12-01 19:31:21.430938 | [DONE] Update abgeschlossen: 2
+2025-12-01 23:57:32.590172 | [INIT] Ordner erstellt: week_08_naddel
+2025-12-02 00:02:38.483389 | [INIT] Ordner erstellt: week_09_daddel
