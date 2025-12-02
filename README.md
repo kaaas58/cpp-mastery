@@ -97,18 +97,19 @@ Langfristig
 
 ## 🌟 Highlights
 
-Automatisierte Dokumentation: Kein manuelles Verwalten von Screenshot-Listen
-Visual Progress Tracking: Thumbnails zeigen Projektverlauf auf einen Blick
-Modulare Struktur: Jede aktive Woche ein abgeschlossenes Lernmodul
-Best Practices: Fokus auf modernen C++-Stil (C++17/20)
+Automatisierte Dokumentation: Kein manuelles Verwalten von Screenshots oder erstellen von Thumbnails
 
-## 🚀 Quick Start (um protfolio.py zu nutzen / => Struktur, Repo clonen => Dependencies installieren => profolio.py mit Konsole anwenden wie folgt)
+🚀 Quick Start, um protfolio.py bzw. Strukturzu nutzen: 
+Repo clonen => bash: "git clone https://github.com/kaaas58/cpp-mastery.git"
+Dann in den Ordner automation profolio.py editieren oder nutzen.
 
-Repository klonen, bash#: git clone https://github.com/kaaas58/cpp-mastery.git
+Nicht vergessen! Python-Dependencies für Thumbnails installieren (optional)
 
-## Python-Dependencies installieren (optional für Thumbnails)
+```Text
+py -m ensurepip --default-pip
 
 pip install Pillow
+```
 
 ## Neue Woche/Eintrag mit Struktur erzeugen
 
@@ -150,13 +151,9 @@ Siehe obig unter Repository-Struktur, ein Eintrag ist die Structur in weeks (wee
 # =====================================================================
 ```
 
-## Screenshots hinzufügen
+## Weiteres
 
-cp mein_screenshot.png ../weeks/week_07_templates/screenshots/
-
-## READMEs aktualisieren (inl Sreenshots laden und Thumbs erzeugen, so wie einbinden)
-
-python portfolio.py
+Weiter Automatisierungsscripte sollten mit fortschreitender Zeit und Usecases unter https://github.com/kaaas58/scripts.git entstehen und einsehbar sein. Meine Momentane Webside sehen sie unter https://kaaas58.github.io/ltcoding/.
 
 ## 📝 Lizenz & Verwendung
 
