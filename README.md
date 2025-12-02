@@ -153,7 +153,7 @@ Siehe obig unter Repository-Struktur, ein Eintrag ist die Structur in weeks (wee
 
 ## Weiteres
 
-Weiter Automatisierungsscripte sollten mit fortschreitender Zeit und Usecases unter https://github.com/kaaas58/scripts.git entstehen und einsehbar sein. Meine Momentane Webside sehen sie unter https://kaaas58.github.io/ltcoding/.
+Weiter Automatisierungsscripte sollten mit fortschreitender Zeit und Usecases unter https://github.com/kaaas58/scripts.git entstehen und einsehbar sein. Meine momentane Webside welche mit der Zeit noch weiter entwickelt wird finden sie unter https://kaaas58.github.io/ltcoding/.
 
 ## 📝 Lizenz & Verwendung
 
