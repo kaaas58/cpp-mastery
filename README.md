@@ -1,30 +1,28 @@
-### 📖 Über dieses Repository
+# 📖 Über dieses Repository
+
 Dieses Repository dokumentiert meinen wochenbasierten Lernweg in moderner C++-Entwicklung. Jede aktive Woche, bzw. in regelmäßigen Abschnitten wird ein neues Thema behandelt, mit praktischen Übungen und Code-Beispielen. Themen werden teils mit einem konkreten Mini-Projekt abgeschlossen.
 
+## 🎯 Projektziele
 
-
-### 🎯 Projektziele
 Sichtbarer Fortschritt: Nachvollziehbare Entwicklung
 Praxisorientierung: Jede aktive Woche ein lauffähiges Ergebnis
 Portfolio-Aufbau: Dokumentation für Bewerbungen und Präsentationen
 Modern C++: Best Practices, STL, RAII, Smart Pointers, Templates...
 Automatisierung: Erstellung und weiterentwicklung Skript-gestützter README-Generierung und Screenshot-Verwaltung
 
+## 🛠 Technologie-Stack
 
-
-### 🛠 Technologie-Stack
 Sprache: C++17/20
 Build-System: CMake
 Automatisierung: Python 3.x (Pillow für Thumbnails)
 Versionskontrolle: Git / GitHub
-Recherschen: Dokumentationen/Googel/Sprachmodelle/Plattformen 
+Recherschen: Dokumentationen/Googel/Sprachmodelle/Plattformen
 
-
-
-### 📂 Repository-Struktur
+## 📂 Repository-Struktur
 
 ```text
 cpp-mastery/
+
 ├── weeks/                     # Wochenmodule
 │   ├── week_01_klassen/
 │   │   ├── README.md          # Dokumentation der Woche
@@ -39,13 +37,11 @@ cpp-mastery/
 │   ├── portfolio.py           # README & Thumbnail Generator
 │   └── update_log.txt         # Automatisierungs-Log
 │
-├── README.md                  # Projekt-Übersicht (diese Datei)
-├── STYLEGUIDE.md             # Code-Konventionen
-│
-└── .gitignore
+└── README.md                  # Projekt-Übersicht (diese Datei)
+
 ```
 
-### 📋 Wochenstruktur
+## 📋 Wochenstruktur
 
 Jede Woche enthält:
 
@@ -55,9 +51,8 @@ README.md: Lernziele, Code-Beispiele, Debugging-Notes
 screenshots/: Visuelle Ergebnisse des Wochenprojekts
 thumbnails/: Automatisch generierte Vorschaubilder (300px)
 
+## 🤖 Automatisierung
 
-
-### 🤖 Automatisierung
 Portfolio-Script (automation/portfolio.py)
 Automatisiert die Verwaltung des Repositories:
 
@@ -77,9 +72,8 @@ Features:
 🔄 Chronologische Sortierung (neueste zuerst)
 📝 Logging in update_log.txt
 
+## 🎓 Lernziele
 
-
-### 🎓 Lernziele
 Kurzfristig (Wochen 1-6)
 
  Grundlagen moderner OOP in C++
@@ -101,41 +95,75 @@ Langfristig
  Open-Source Contributions
  Portfolio für Bewerbungen im C++-Bereich
 
+## 🌟 Highlights
 
-
-### 🌟 Highlights
 Automatisierte Dokumentation: Kein manuelles Verwalten von Screenshot-Listen
 Visual Progress Tracking: Thumbnails zeigen Projektverlauf auf einen Blick
 Modulare Struktur: Jede aktive Woche ein abgeschlossenes Lernmodul
 Best Practices: Fokus auf modernen C++-Stil (C++17/20)
 
+## 🚀 Quick Start (um protfolio.py zu nutzen / => Struktur, Repo clonen => Dependencies installieren => profolio.py mit Konsole anwenden wie folgt)
 
+Repository klonen, bash#: git clone https://github.com/kaaas58/cpp-mastery.git
 
-### 🚀 Quick Start (um protfolio.py zu nutzen / => Struktur, Repo clonen => Dependencies installieren => profolio.py mit Konsole anwenden wie folgt)
-bash# Repository klonen
-git clone https://github.com/kaaas58/cpp-mastery.git
-cd cpp-mastery
+## Python-Dependencies installieren (optional für Thumbnails)
 
-### Python-Dependencies installieren (optional für Thumbnails)
 pip install Pillow
 
-### Neue Woche erstellen
-cd automation
-python portfolio.py 07 "Templates" "Generic Calculator"
+## Neue Woche/Eintrag mit Struktur erzeugen
 
-### Screenshots hinzufügen
+Siehe obig unter Repository-Struktur, ein Eintrag ist die Structur in weeks (week_01_Bsp.).
+
+```text
+# =====================================================================
+# Portfolio Automator – PRO Version
+#
+# VERWENDUNG:
+#
+# 1) UPDATE-MODUS (Screenshots & Thumbnails aktualisieren)
+#      py portfolio.py
+#
+#    → Durchsucht alle Wochenordner und:
+#        • generiert fehlende Thumbnails (180px)
+#        • aktualisiert Screenshot-Listen in allen READMEs
+#        • sortiert chronologisch (neueste zuerst)
+#
+# 2) AUTO-INIT (Automatische Wochennummer)
+#      py portfolio.py Smart Pointers
+#      py portfolio.py hallo wallo knallo
+#
+#    → Findet automatisch die nächste Wochennummer und legt an:
+#        • week_XX_smart-pointers/ (Umlaute → ae/oe/ue)
+#        • README.md mit Template
+#        • screenshots/ + thumbnails/ Ordner
+#        • Projekt-Platzhalter: Projekt (später manuell ergänzen)
+#
+# 3) MANUELL-INIT (Woche selbst angeben)
+#      py portfolio.py 05 Smart Pointers
+#      py portfolio.py 03 hello world test
+#
+#    → Legt Woche mit gewünschter Nummer an
+#        • week_05_smart-pointers/
+#        • Titel aus allen Wörtern kombiniert
+#        • Projekt-Platzhalter: Projekt
+#
+# =====================================================================
+```
+
+## Screenshots hinzufügen
+
 cp mein_screenshot.png ../weeks/week_07_templates/screenshots/
 
-### READMEs aktualisieren (inl Sreenshots laden und Thumbs erzeugen, so wie einbinden)
+## READMEs aktualisieren (inl Sreenshots laden und Thumbs erzeugen, so wie einbinden)
+
 python portfolio.py
 
+## 📝 Lizenz & Verwendung
 
-
-### 📝 Lizenz & Verwendung
 Dieses Repository dient primär persönlichen Lernzwecken. Code-Beispiele und Dokumentation können unter MIT License verwendet werden.
 
+## 🤝 Kontakt & Feedback
 
-### 🤝 Kontakt & Feedback
 Fragen oder Vorschläge?
 Dann eröffne gerne ein Issue im Repository oder kontaktiere mich direkt.
 Viel Spaß beim Programmieren!  🎯
