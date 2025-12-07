@@ -1,5 +1,5 @@
 
-# Step 01 - Sart
+# Step 01 - Start path
 
 ![C++](https://img.shields.io/badge/C++-17%2F20-00599C?logo=cplusplus)
 ![Progress](https://img.shields.io/badge/Step-01-lightgreen)
@@ -35,6 +35,7 @@
 
 ## Struktur
 
+```plaintext
 folder/
 │
 ├── steps/
@@ -51,6 +52,7 @@ folder/
 │
 ├── .gitignore
 └── .git
+```
 
 ## 📸 Screenshots
 
