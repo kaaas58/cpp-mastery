@@ -42,13 +42,8 @@ Ein Beispiel für typische Inhalte:
 
 ```text
 cpp_mastery/
-├── src/              # Beispielprogramme & Übungen
-├── templates/        # Vorlagen für neue Projekte
-├── include/          # Header & Libraries
-├── build/            # Build-Ordner (durch CMake erzeugt)
-├── CMakePresets.json
-├── CMakeLists.txt
-
-lauinchjson?
-
-└── README.md
+├──  steps/        # Vorlagen für neue Projekte
+├── .git              # Beispielprogramme & Übungen
+├──  LICENSE            # Build-Ordner (durch CMake erzeugt)
+├── .gitignore          # Header & Libraries
+└──  README.md
